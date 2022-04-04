@@ -1,0 +1,227 @@
+/* H1 styling *******************************************************************************************************************************************************/
+
+h1{
+    font-family: Tinos,serif;
+    color: #2d5059;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 40px;
+    font-weight: 500;
+}
+
+/* Drop down styling *******************************************************************************************************************************************************/
+
+/* Centers the dropdown and gives it space */
+
+.dropdown{
+    text-align: center;
+    padding: 27px 9px;
+}
+
+/* Style the dropdown and gives it border */
+
+#explore{
+    font-size: 18px;
+    padding: 0.5em 1.5em;
+    text-align: start;
+    border-radius: 7px;
+    border: 3px solid #e6e6e6;
+}
+
+/* Card(Blog Post) *******************************************************************************************************************************************************/
+
+/*  */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(500px,auto);
+}
+
+.read-more-wrap{
+    margin-bottom: 25px;
+    height: 100px;
+    overflow: hidden;
+    font-size: 14px;
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.read-more-wrap.blue-background{
+    color: white;
+}
+
+.read-more{
+    position: relative;
+    display: block;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    color: rgb(30, 103, 128);
+}
+.read-more.blue-background{
+    color: lightblue;
+}
+
+.read-more::before{
+    content: 'Read More';
+}
+
+.grid-container .grid-item.active .read-more::before{
+    content: 'Read Less';
+}
+.grid-container .grid-item.active .read-more-wrap{
+    height: auto;
+}
+
+.grid-container .grid-item{
+    margin: 40px 90px;
+    border-radius: 12px;
+    border: solid rgba(0, 0, 0, 0.15);;
+    border-width: 1px;
+    box-shadow: -15px 15px 10px rgba(0, 0, 0, 0.2);
+    min-width: 275px;
+    display: inline-block;
+}
+
+
+
+.card-image{
+    border-radius: 12px;
+    height: 220px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Category Styling */
+
+.h2-explore{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.h2-item-1{
+    color: orange;
+}
+
+.h2-item-2{
+    color: red;
+}
+
+.h2-item-4{
+    color: yellowgreen;
+}
+
+.h2-item-5{
+    color: lightblue;
+}
+
+.h2-item-6{
+    color: purple;
+}
+
+.h2-item-8{
+    color: darkorange;
+}
+
+.h2-item-9{
+    color: darkgrey;
+}
+
+/* Article Title/Article */
+
+.article-title{
+    padding: 10px;
+}
+
+div section div p{
+    padding: 10px;
+}
+
+.inside-pic-text{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    margin: auto;
+}
+
+/* Setting Image/Background */
+
+.image-1{
+    background-image: url("https://static4.depositphotos.com/1000423/352/i/600/depositphotos_3524976-stock-photo-image-of-the-heart-rate.jpg");
+} 
+
+
+.image-2{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrSAdsoAZQYuUFxDE-qQci6sU6Xao_knEAxA&usqp=CAU");
+}
+
+
+.grid-item-3{
+    background-color: #4b7883;
+}
+.image-3{
+    background-image: url("https://scriptchain.co/assets/images/blog_bckgrd.jpg");
+}
+
+.image-4{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgmxKpK-bEl1ziaTTrr6shgnGBHqVyrYAzXQ&usqp=CAU");
+}
+
+.image-5{
+    background-image: url("https://www.bruker.com/content/bruker/int/en/applications/industrial/medical-devices-and-implants/_jcr_content/teaserImage.coreimg.png/1603241084938.png");
+}
+
+.image-6{
+    background-image: url("https://miro.medium.com/max/1000/1*-vTlk-IAv2W7oi9Iuxn3LA.jpeg");
+}
+
+
+.grid-item-7{
+    background-color: #4b7883;
+}
+.image-7{
+    background-image: url("https://scriptchain.co/assets/images/blog_bckgrd.jpg");
+}
+
+.image-8{
+    background-image: url("https://www.wondriumdaily.com/wp-content/uploads/2019/09/header-5.jpg");
+}
+
+.image-9{
+    background-image: url("https://images.pexels.com/photos/1535244/pexels-photo-1535244.jpeg");
+}
+
+/* Paginator */
+
+.pagination{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.pagination .middle a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #2d5059;
+    font-size: 20px;
+}
+.pagination .left{
+    text-decoration: none;
+    color: #2d5059;
+}
+
+.pagination .right a{
+    text-decoration: none;
+    color: #2d5059;
+}
+
+.pagination a.active{
+    font-weight: bold;
+}
+

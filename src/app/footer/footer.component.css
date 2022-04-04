@@ -1,0 +1,99 @@
+/* Sets display grid with even colomns except the last is 3* the size */
+
+.contact-about{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 3fr;    
+    background-color: #0d1a1e; 
+    height: 260px;    
+}
+
+/* Styles the first 5 even colomns */
+
+.about,.partnerships,.providers,.patients,.support{
+    font-family: Lato,sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 22px;
+    color: white;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.about-container p,.partnerships-container p,.providers-container p,.patients-container p,.support-container p{
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 17px;
+    padding: 10px 18px;
+}
+
+/* Styles all the anchor tags in the footer */
+
+.contact-about div p a{
+    font-size: 14px;
+    font-family: Lato,sans-serif;
+    color: white;
+}
+
+/* Styles the last colomn */
+
+.contact-container{
+    font-size: 14px;
+    font-family: Lato,sans-serif;
+    color: white;
+    text-align: right;
+    padding: 10px 20px;
+}
+
+.contact-container p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+/* Styles contact button */
+
+.contact-button{
+    color: white;
+    background-color: #0d1a1e;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-family: Lato,sans-serif;
+    width: 124px;
+    height: 40px;
+    margin-top: 12px;
+    margin-bottom: 21px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Styles support page anchor tag */
+
+.support-page{
+    font-family: Lato,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+.support-page a{
+    font-size: 18px !important;
+}
+
+/* Terms & Conditions */
+
+.terms-conditions{
+    font-family: Lato,sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    line-height: 1.6;
+    height: 64px;
+    background-color: #2d5059;
+    padding-top: 18px;
+}
+.terms-conditions a{
+    color: inherit;
+    text-decoration: none;
+}

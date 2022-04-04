@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+/* Logo styling */
+nav img{
+    padding-top: 3px;
+    padding-right: 30px;
+    width: 180px;
+    height: 60px;
+    object-fit: contain;
+}
+
+/* Navigation styling */
+
+nav{
+    background: #2d5059;
+    height: 64px;
+    min-width: 100vh;
+}
+
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 64px;
+    margin: 0 10px;
+    position: relative;
+}
+
+/* Styles the buttons of nav */
+
+nav ul li button{
+    font-weight: bold;
+    background: inherit;
+    font-size: 15px;
+    min-width: 64px;
+    line-height: 36px;
+    padding: 0 16px;
+    border-bottom: 3px;
+    color: white;
+}
+nav ul li button:hover{
+    background-color: rgba(34, 75, 67, 0.733) !important;
+}
+nav ul li ul li a:hover{
+    border-radius: 12px;
+}
+
+/* Login Button */
+button#login{
+    width: 100px;
+    border-radius: 12px;
+    border: solid;
+}
+
+/* Styles the dropdown and hides it */
+
+nav ul ul{
+    position: absolute;
+    display: none;
+    background-color: white;
+    border-radius: 12px ;
+    border: solid rgba(0, 0, 0, 0.15);
+    border-width: 1px;
+    box-shadow: -15px 15px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Displays the dropdown when hovered */
+
+nav ul li:hover > ul{
+    display: block;
+}
+
+nav ul ul li{
+    background-color: white;
+    width: 200px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+/* Styles the anchor tags in dropdown */
+
+nav ul li ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li ul li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
